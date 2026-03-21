@@ -57,9 +57,9 @@
     };
 
     behaviors {
-        hm: home-row {
+        hm: hm {
             compatible = "zmk,behavior-hold-tap";
-            label = "Home Row";
+            label = "HM";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
