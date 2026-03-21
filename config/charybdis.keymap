@@ -37,24 +37,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        hangeul {
-            bindings = <&kp RALT>;
-            key-positions = <32 33>;
-        };
-
-        end {
-            bindings = <&kp END>;
-            key-positions = <19 20>;
-        };
-
-        home {
-            bindings = <&kp HOME>;
-            key-positions = <15 16>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
