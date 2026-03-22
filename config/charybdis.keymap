@@ -101,7 +101,7 @@
         num {
             bindings = <
 &kp TAB         &kp N1     &kp N2     &kp N3     &kp N4  &kp N5       &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE
-&kp CAPS        &kp LS(A)  &kp LS(S)  &kp D      &cpx    &kp LC(V)    &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT     &none         &none
+&kp LCTRL       &kp LS(A)  &kp LS(S)  &kp D      &cpx    &kp LC(V)    &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT     &none         &none
 &kp LEFT_SHIFT  &kp LC(Z)  &none      &none      &none   &none        &none         &none           &none         &none         &none         &kp LEFT_SHIFT
                                       &kp EQUAL  &none   &none        &kp RGUI      &kp ENTER
             >;
@@ -109,10 +109,10 @@
 
         bluetooth {
             bindings = <
-&none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none
-&bt BT_CLR    &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none    &none  &none  &none  &none  &none  &none
-                                          &none         &none         &none    &none  &none
+&bt BT_CLR  &none         &none         &none         &none         &none           &none  &none  &none  &none  &none  &none
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none  &none  &none  &none  &none  &none
+&none       &none         &none         &none         &none         &none           &none  &none  &none  &none  &none  &none
+                                        &none         &none         &none           &none  &none
             >;
         };
 
