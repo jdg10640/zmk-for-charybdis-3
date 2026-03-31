@@ -54,6 +54,11 @@
             bindings = <&kp END>;
             key-positions = <19 20>;
         };
+
+        nav {
+            bindings = <&mo 3>;
+            key-positions = <37 39>;
+        };
     };
 
     behaviors {
@@ -101,8 +106,8 @@
         num {
             bindings = <
 &kp TAB         &kp N1     &kp N2     &kp N3     &kp N4  &kp N5       &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp DEL
-&kp LCTRL       &kp LC(A)  &kp LC(S)  &kp D      &cpx    &kp LC(V)    &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT     &none         &none
-&kp LEFT_SHIFT  &kp LC(Z)  &none      &none      &none   &none        &none         &none           &none         &none         &none         &kp LEFT_SHIFT
+&kp LCTRL       &kp LC(A)  &kp LC(S)  &kp D      &cpx    &kp LC(V)    &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT     &trans        &trans
+&kp LEFT_SHIFT  &kp LC(Z)  &trans     &trans     &trans  &trans       &trans        &trans          &trans        &kp PERIOD    &trans        &kp LEFT_SHIFT
                                       &kp EQUAL  &none   &none        &kp RGUI      &kp ENTER
             >;
         };
